@@ -2,6 +2,7 @@ body{
     background-image: url("/assets/images/dark-triangles/dark-triangles.png")
 }
 .container{
+    margin-top: 20px;
     background-color: lightgray;
 }
 
@@ -10,16 +11,39 @@ h1{
     font-size: 5em;
 }
 
+.jumbotron{
+    margin-top: 20px;
+    background-color: whitesmoke;
+}
+
+.instructions{
+    background-color: whitesmoke;
+}
+
 .row{
     margin-bottom: 20px;
 }
 
 .win-loss{
-    background-color: lightgreen;
-    margin: 5px;
+    background-color: rgb(104, 214, 104);
+    color: whitesmoke;
+    font-size: 1.5em;
 }
 
 .target-number{
-    background-color: lightblue;
-    margin: 5px;
+    background-color: rgb(0, 132, 255);
+    text-align: center;
 }
+
+#target-number{
+    font-size: 3em;
+    color: whitesmoke;
+}
+
+.current-count{
+    background: rgb(236, 108, 108);
+    font-size: 3em;
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+
