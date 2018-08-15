@@ -1,0 +1,25 @@
+body{
+    background-image: url("/assets/images/dark-triangles/dark-triangles.png")
+}
+.container{
+    background-color: lightgray;
+}
+
+h1{
+    color: rgb(0, 132, 255);
+    font-size: 5em;
+}
+
+.row{
+    margin-bottom: 20px;
+}
+
+.win-loss{
+    background-color: lightgreen;
+    margin: 5px;
+}
+
+.target-number{
+    background-color: lightblue;
+    margin: 5px;
+}
