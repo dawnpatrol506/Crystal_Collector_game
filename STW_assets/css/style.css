@@ -1,0 +1,29 @@
+body, html{
+    height: 100%;
+}
+
+.card{
+    opacity: 1;
+    width: 300px;
+}
+
+.card-img{
+    height: 200px;
+}
+
+.sizer{
+    height: 100px;;
+}
+
+.bg{
+    background-image: url("/STW_assets/images/bg.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+}
+
+.container{
+    z-index: 1;
+}
