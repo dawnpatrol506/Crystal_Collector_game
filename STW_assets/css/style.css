@@ -4,7 +4,8 @@ body, html{
 
 .card{
     opacity: 1;
-    width: 300px;
+    width: 260px;
+    margin-right: 1%;
 }
 
 .card-img{
@@ -26,4 +27,33 @@ body, html{
 
 .container{
     z-index: 1;
+}
+
+.row{
+    margin-bottom: 20px;
+    width: 100%;
+    align-content: center;
+}
+
+.vs{
+    color: yellow;
+    font-size: 6em;
+}
+
+.versus{
+    line-height: 100px;
+}
+
+div{
+    align-content: center;
+    text-align: center;
+}
+
+.col-4{
+    text-align: center;
+    align-content: center;
+}
+
+button{
+    font-size: 2em;
 }
